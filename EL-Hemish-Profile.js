@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   async function loadLanguage(lang) {
     try {
-      const response = await fetch(`./Assets/Lang/${lang}.json`);
+      const response = await fetch(`/Assets/Lang/${lang}.json`);
       const translations = await response.json();
 
       document.querySelectorAll('[data-i18n]').forEach(function (element) {
