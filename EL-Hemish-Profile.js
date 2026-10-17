@@ -1,9 +1,3 @@
-/* ============================================================
-   AL HEMISH CONTRACTING — Interactions
-   Scroll reveal · animated stat counters · sticky navbar state ·
-   i18n / RTL · services carousel
-   ============================================================ */
-
 let servicesSwiper = null; // holds the Swiper instance so language toggle can sync direction
 
 document.addEventListener('DOMContentLoaded', async function () {
@@ -114,12 +108,6 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   /* ---------- i18n / RTL ---------- */
   var currentLang = localStorage.getItem('language') || 'en';
-
-  // IMPORTANT: wait for the initial language (and therefore dir="rtl"/"ltr")
-  // to be applied BEFORE the Swiper carousel is created. Swiper reads the
-  // page direction at init time to lay out its slides/loop clones; creating
-  // it first and flipping direction afterward is what caused slides to
-  // land on empty/blank positions when navigating.
   await loadLanguage(currentLang);
 
   var translateBtn = document.getElementById('translateBtn');
@@ -133,7 +121,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   async function loadLanguage(lang) {
     try {
-      const response = await fetch(`/assets/lang/${lang}.json`);
+      const response = await fetch(`./assets/lang/${lang}.json`);
       const translations = await response.json();
 
       document.querySelectorAll('[data-i18n]').forEach(function (element) {
