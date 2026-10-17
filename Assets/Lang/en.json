@@ -1,0 +1,352 @@
+{
+    "home": "Home",
+    "about": "About",
+    "mission": "Mission",
+    "services": "Services",
+    "clients": "Clients",
+    "contact": "Contact",
+    "about_us": "About Us",
+    "company_name": "Al Hemish Contracting",
+    "our_services": "Our Services",
+
+  "consWork": "Innovative Engineering Solutions for Every Project.",
+  "consWork_des": "Building Saudi Arabia's Infrastructure",
+
+  "coolWork": "Excellence in Execution is Our Promise.",
+  "coolWork_des": "Engineered Climate Systems",
+
+  "finishWork": "Quality Work. Reliable Results.",
+  "finishWork_des": "Precision In Every Detail",
+
+  "energyWork": "Renewable Energy",
+  "energyWork_des": "Renewable Energy Systems",
+
+  "saftWork": "Safety & Security",
+  "saftWork_des": "Protecting What Matters",
+
+    
+    "about_desc_1": "Al Hemish Contracting & Supplies is a Saudi company specialized in executing integrated projects with high quality and professionalism.",
+    "about_desc_2": "We specialize in construction works, finishing, electrical and mechanical works, communication systems, low-current systems, safety and security systems, smart control systems, smart homes, renewable energy solutions, and technical supplies.",
+    "about_desc_3": "We are committed to providing advanced engineering solutions that combine high quality with technical innovation.",
+    
+    "service_construction": "Construction & Finishing",
+    "service_electrical": "Electrical Works",
+    "service_mechanical": "Mechanical Works",
+    "service_safety": "Safety & Security",
+    "service_LowCurrent":"Communication & Low Current",
+    "service_SmartControl":"Smart Control & BMS",
+    "service_Energy":"Renewable Energy",
+    "Service_Supplies":"Technical Supplies",
+
+    "ourClients":"Our Clients",
+    "projects":"Our Projects",
+
+    "miss,vis,goal":"Mission, Vision & Goals",
+    
+    
+"foundation_title": "Our Foundation",
+"mission_vision_goals": "Mission, Vision & Goals",
+
+"mission_title": "Our Mission",
+"mission_desc": "To deliver integrated contracting solutions based on quality and innovation, supported by strong technical and engineering expertise to achieve customer satisfaction and contribute to the development of infrastructure across the Kingdom.",
+
+"vision_title": "Our Vision",
+"vision_desc": "To be one of the leading national companies in the contracting sector in Saudi Arabia, providing integrated and innovative solutions that meet client needs and contribute to the development of infrastructure and urban environments.",
+
+"goals_title": "Our Goals",
+"goals_desc": "We strive to provide integrated engineering solutions that combine quality and innovation, positioning ourselves as a trusted partner in supporting Saudi Vision 2030 and contributing to building a prosperous and sustainable future.",
+
+"values_title": "Our Values",
+"values_desc": "Our values are the foundation of every decision we make — guiding us to deliver excellence on every project we undertake.",
+
+"value_quality": "Quality",
+"value_integrity": "Integrity",
+"value_innovation": "Innovation",
+"value_safety": "Safety",
+"value_sustainability": "Sustainability",
+"value_teamwork": "Teamwork",
+"value_customer_satisfaction": "Customer Satisfaction",
+
+"strategic_objectives_title": "Strategic Objectives",
+"strategic_objectives_desc": "Our strategic goals are designed to position Al Hemish as the leading contracting company in Saudi Arabia, aligned with Vision 2030.",
+
+"objective_1_title": "Execute High-Quality Projects",
+"objective_1_desc": "Deliver every project on schedule with the highest standards.",
+
+"objective_2_title": "Develop National Talents",
+"objective_2_desc": "Invest in training and empowering Saudi professionals.",
+
+"objective_3_title": "Strengthen Strategic Partnerships",
+"objective_3_desc": "Build lasting relationships with clients and partners.",
+
+"objective_4_title": "Expand Kingdom-Wide Operations",
+"objective_4_desc": "Grow our footprint across all regions of Saudi Arabia.",
+
+"objective_5_title": "Adopt Cutting-Edge Technologies",
+"objective_5_desc": "Stay ahead by embracing the latest innovations in contracting.",
+
+
+  "const": "Construction & Finishing",
+  "const_des_1": "Full construction from excavation and foundations to concrete structure and interior/exterior finishes including paints, flooring, ceilings, and facades. We deliver complete building solutions with a strong focus on quality, safety, and precision at every stage of the project.",
+
+  "const_des_2": "Our experienced engineers and skilled professionals use modern construction techniques and high-quality materials to ensure every project is durable, functional, and built to the highest industry standards. We carefully manage each phase to achieve timely completion while maintaining exceptional craftsmanship.",
+
+  "const_des_3": "Whether you are planning a residential, commercial, or industrial project, we provide customized construction and finishing solutions tailored to your vision and budget. Our commitment to customer satisfaction, transparent communication, and attention to detail ensures results that exceed expectations and stand the test of time.",
+
+  "other_services": "Other Services",
+
+  "electrical_works": "Electrical Works",
+
+  "mechanical_works": "Mechanical Works",
+
+  "safety_security": "Safety & Security",
+
+  "footer_rights": "© 2025 Al Hemish Construction. All Rights Reserved. | VAT: 312443775200003 | CR: 1009081927",
+
+
+
+
+  "electrical_des_1": "We provide comprehensive electrical solutions for residential, commercial, and industrial projects. Our services include power distribution systems, wiring, lighting installations, control panels, and electrical infrastructure designed to ensure efficiency, safety, and long-term reliability.",
+
+  "electrical_des_2": "Our team of qualified electrical engineers and technicians follows international standards and best practices to deliver high-quality installations and maintenance services. We utilize advanced equipment and modern technologies to guarantee optimal performance and energy efficiency.",
+
+  
+  "construction_finishing": "Construction & Finishing",
+
+
+  "mechanical_des_1": "We provide comprehensive mechanical solutions for residential, commercial, and industrial projects. Our services include HVAC systems, plumbing networks, firefighting systems, pumps, piping installations, and mechanical infrastructure designed for efficiency, reliability, and long-term performance.",
+
+  "mechanical_des_2": "Our experienced mechanical engineers and technicians apply industry best practices and advanced technologies to ensure every system is installed and operated according to the highest quality and safety standards. We focus on delivering energy-efficient and cost-effective solutions tailored to project requirements.",
+
+
+  "safety_des_1": "We provide comprehensive safety and security solutions designed to protect people, assets, and facilities. Our services include fire alarm systems, firefighting networks, emergency lighting, evacuation systems, and integrated safety infrastructure that meets international standards.",
+
+  "safety_des_2": "Our experts design and implement advanced security systems including CCTV surveillance, access control systems, intrusion detection, and monitoring solutions. Every system is carefully planned to ensure maximum protection, reliability, and operational efficiency.",
+
+  
+
+
+  "communication_low_current": "Communication & Low Current",
+
+  "communication_des_1": "We provide advanced communication and low-current solutions that support modern buildings and smart infrastructure. Our services include structured cabling systems, data networks, fiber optic installations, and communication infrastructure designed for reliability and scalability.",
+
+  "communication_des_2": "Our expertise covers data centers, public address systems, audio and video distribution, intercom systems, and integrated communication platforms. We ensure seamless connectivity and high-performance operation across residential, commercial, and industrial facilities.",
+
+  
+  "smart_control_bms": "Smart Control & BMS",
+
+  "smart_des_1": "We provide intelligent building automation and control solutions that enhance comfort, efficiency, and operational performance. Our systems enable centralized monitoring and control of lighting, HVAC, shading systems, energy consumption, and other critical building functions.",
+
+  "smart_des_2": "Our expertise includes KNX, DALI, and Building Management Systems (BMS) integration, allowing seamless communication between mechanical, electrical, and security systems. This ensures optimized building performance, reduced energy consumption, and improved user experience.",
+
+  
+  "renewable_energy": "Renewable Energy",
+
+  "renewable_des_1": "We provide innovative renewable energy solutions that help organizations and individuals reduce energy costs, improve sustainability, and minimize environmental impact. Our services include solar photovoltaic (PV) systems, energy storage solutions, and advanced power management technologies.",
+
+  "renewable_des_2": "Our team designs and installs high-performance solar energy systems, smart battery storage solutions, and electric vehicle (EV) charging infrastructure tailored to the unique requirements of each project. We focus on maximizing energy efficiency, reliability, and long-term value.",
+
+  
+  "technical_supplier": "Technical Supplier",
+
+  "technical_des_1": "We supply a wide range of high-quality technical products, equipment, and materials to support construction, industrial, commercial, and infrastructure projects. Our extensive supplier network allows us to deliver reliable solutions that meet international standards and project specifications.",
+
+  "technical_des_2": "Our offerings include electrical components, mechanical equipment, low-current systems, safety products, automation devices, and specialized technical materials sourced from trusted manufacturers and leading global brands.",
+
+ 
+  "plus8":"+8",
+  "serviceshemish":"Services",
+
+  "plus15":"+15",
+  "clientshemish":"Clients",
+
+  "hundred":"100%",
+  "qualityhemish":"Quality",
+
+  "whatwedo":"What We Do",
+  "truestedby":"Truested By",
+
+
+  
+  "contactus": "Contact Us",
+  "contact.desc": "Ready to start your project? Reach out to our team for a consultation and engineering proposal tailored to your needs.",
+
+  "phone": "Phone",
+  "email": "Email",
+  "website": "Website",
+
+  "message": "Send a Message",
+  "sendmessagebtn": "Send Message",
+
+  "name": "Your Name",
+  "youremail": "Your Email",
+  "subject": "Subject",
+  "yourmessage": "Your Message",
+
+  "addressdetails": "Office No. 01, Saggaf Building 2433 Madina Almunawarah Branch Road Al Faisaliyyah Dist., Riyadh Kingdom of Saudi Arabia"
+,
+"looking_ahead":"Looking Ahead",
+
+
+  "const_des_1c": "We provide comprehensive construction and finishing services for residential, commercial, and administrative projects. Our team delivers complete building solutions with a commitment to quality, safety, and engineering excellence, ensuring every project is executed according to the highest industry standards.",
+
+  "const_des_2c": "From structural construction works to interior and exterior finishing, we manage every phase of the project with precision and efficiency. Our experienced engineers and skilled workforce utilize modern construction methods and premium materials to achieve durable, functional, and aesthetically appealing results.",
+
+  "service_scope": "Our Construction & Finishing Services Include:",
+
+  "construction_item_1": "General Construction Works",
+  "construction_item_2": "Interior & Exterior Finishing Works",
+  "construction_item_3": "Decoration & Ceiling Works",
+  "construction_item_4": "Flooring & Painting Works",
+  "construction_item_5": "Renovation & Rehabilitation Projects",
+  "construction_item_6": "Project Management & Execution"
+
+  
+  ,"construction": "Construction & Finishing",
+  "electrical": "Electrical Works",
+  "mechanical": "Mechanical Works",
+  "safety": "Safety & Security",
+  "communication": "Communication & Low Current",
+  "smart": "Smart Control & BMS",
+  "renewable": "Renewable Energy",
+  "supplier": "Technical Supplies",
+
+  
+    "footer_desc": "Engineering, Construction, MEP, Safety & Smart Solutions Across Saudi Arabia.",
+
+    "quick_links": "Quick Links",
+    "contact_us": "Contact Us",
+
+    
+
+    "contact_information": "Contact Information",
+    "address": "Riyadh, Saudi Arabia",
+    "download_profile": "Download Profile",
+
+
+    
+  "service_scope_safety": "Our Safety & Security Services Include:",
+
+  
+  "safety_item_1": "Fire Alarm Systems",
+  "safety_item_2": "Fire Fighting Systems",
+  "safety_item_3": "Fire Suppression Systems",
+  "safety_item_4": "Smoke Control & Stair Pressurization Systems",
+  "safety_item_5": "Emergency & Life Safety Systems",
+  "safety_item_6": "Testing, Commissioning & Handover",
+
+  "safety_des_3": "We are committed to delivering reliable safety solutions that help clients maintain secure environments, comply with regulations, and ensure business continuity through high-quality engineering and professional execution."
+
+
+
+,
+"service_scope_electrical": "Our Electrical Services Include:",
+
+"electrical_item_1": "Electrical Power Distribution Systems",
+"electrical_item_2": "Main & Sub Distribution Boards (MDB / SMDB)",
+"electrical_item_3": "Indoor & Outdoor Lighting Systems",
+"electrical_item_4": "Power & Control Cable Installations",
+"electrical_item_5": "Grounding & Lightning Protection Systems",
+"electrical_item_6": "Uninterruptible Power Supply (UPS) Systems",
+"electrical_item_7": "Testing, Commissioning & Handover",
+
+"electrical_des_3": "From small commercial facilities to large industrial projects, Al Hemish Contracting provides customized electrical solutions with a commitment to quality, safety, and engineering excellence throughout every stage of execution."
+
+,
+
+
+
+
+"service_scope_mechanical": "Our Mechanical Services Include:",
+
+"mechanical_item_1": "HVAC Systems",
+"mechanical_item_2": "Ductwork & Insulation Works",
+"mechanical_item_3": "Smoke Extraction & Ventilation Systems",
+"mechanical_item_4": "Water Supply & Drainage Networks",
+"mechanical_item_5": "Pump Systems",
+"mechanical_item_6": "Testing, Commissioning & Maintenance",
+
+"mechanical_des_3": "From design and installation to testing, commissioning, and maintenance, we provide complete mechanical engineering solutions that improve building performance while meeting all technical specifications and safety requirements."
+,
+
+"service_scope_communication": "Our Communication & Low Current Services Include:",
+
+"communication_item_1": "CCTV Surveillance Systems",
+"communication_item_2": "Access Control Systems",
+"communication_item_3": "Data & Network Systems",
+"communication_item_4": "Fiber Optic Systems",
+"communication_item_5": "Telephone (PBX) & Communication Systems",
+"communication_item_6": "Public Address (PA) Systems",
+"communication_item_7": "Audio, Video & Conference Systems",
+"communication_item_8": "Network Cabling & Infrastructure",
+
+"communication_des_3": "From structured cabling and networking to intelligent communication systems, we deliver complete low-current solutions that improve operational efficiency, security, and long-term reliability."
+,
+
+
+
+
+"service_scope_smart": "Our Smart Control & BMS Services Include:",
+
+"smart_item_1": "Building Management Systems (BMS)",
+"smart_item_2": "KNX Smart Control Systems",
+"smart_item_3": "Guest Room Management Systems (GRMS)",
+"smart_item_4": "Smart Home Systems",
+"smart_item_5": "System Integration Solutions",
+"smart_item_6": "Energy Monitoring & Control Solutions",
+
+"smart_des_3": "From intelligent control systems to complete building management platforms, we deliver innovative automation solutions that enhance comfort, optimize performance, and support sustainable building operations."
+
+,
+
+"service_scope_renewable": "Our Renewable Energy Services Include:",
+
+"renewable_item_1": "Solar Photovoltaic (PV) Systems",
+"renewable_item_2": "Solar Power Plant Design & Installation",
+"renewable_item_3": "Inverters & Battery Supply and Installation",
+"renewable_item_4": "Energy Storage Systems",
+"renewable_item_5": "Electric Vehicle (EV) Charging Stations",
+"renewable_item_6": "Energy Monitoring & Management Systems",
+
+"renewable_des_3": "From solar power generation to EV charging infrastructure, we deliver integrated renewable energy solutions that support sustainability, reduce carbon emissions, and provide reliable clean energy for the future."
+,
+
+"service_scope_technical": "Our Technical Supply Services Include:",
+
+"technical_item_1": "Supply of Electrical & Mechanical Equipment and Materials",
+"technical_item_2": "Supply of Low Current, Safety & Security Systems",
+"technical_item_3": "Supply of Network, Communication & Infrastructure Systems",
+"technical_item_4": "Supply of Smart Control & Building Management Systems (BMS)",
+"technical_item_5": "Supply of Renewable Energy Equipment & EV Chargers",
+"technical_item_6": "Supply of Genuine Products from Global Brands",
+"technical_item_7": "Complete Project Supply Solutions with Technical Support",
+
+"technical_des_3": "Through our extensive supplier network and commitment to quality, we help clients streamline procurement, reduce project risks, and ensure timely delivery of reliable products while maintaining competitive pricing and professional technical support."
+
+
+
+,
+ "project1.title": "Rafal Commercial Residential Building",
+  "project1.label_work": "Work Executed",
+  "project1.work": "Mechanical, Electrical Works, Low Current and Fire Fighting",
+  "project1.label_location": "Location",
+  "project1.location": "Al Narjis District, Riyadh",
+  "project1.label_date": "Date",
+  "project1.date": "From 2025 to 2026",
+
+  "project2.title": "Saudi Arabian Football Federation Project",
+  "project2.label_work": "Work Executed",
+  "project2.work": "Fire Alarm, Fire Fighting, Emergency Lighting & Sound Systems",
+  "project2.label_location": "Location",
+  "project2.location": "Riyadh",
+  "project2.label_date": "Date",
+  "project2.date": "From 2025 to 2026",
+
+  "project3.title": "Dolce Italian Restaurant",
+  "project3.label_work": "Work Executed",
+  "project3.work": "Mechanical, Electrical Works, Fire Fighting System and Cooling System",
+  "project3.label_location": "Location",
+  "project3.location": "Diplomatic Quarter (DQ), Riyadh",
+  "project3.label_date": "Date",
+  "project3.date": "From 2024 to 2025"
+}

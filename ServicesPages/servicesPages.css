@@ -1,0 +1,529 @@
+/* ===========================
+   SERVICE PAGE
+=========================== */
+
+body{
+    background:#ffffff;
+    color:#333;
+    font-family:"Segoe UI",sans-serif;
+    line-height:1.5;
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.const{
+    margin-top:10px;
+    text-align:center;
+    font-size:3rem;
+    font-weight:700;
+    color:#ffffff;
+}
+
+.gold-line{
+    width:90px;
+    height:4px;
+    background:#c8a35f;
+    margin:18px auto 60px;
+    border-radius:10px;
+}
+
+/* ===========================
+   BODY
+=========================== */
+.service-detail-body{
+    max-width:1200px;
+    margin:50px auto;
+    background:#fff;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 12px 40px rgba(0,0,0,.08);
+}
+
+/* decorative corners */
+
+.blueprint-corners::before,
+.blueprint-corners::after{
+    content:"";
+    position:absolute;
+    width:90px;
+    height:90px;
+    border:4px solid #c8a35f;
+}
+
+.blueprint-corners::before{
+    top:25px;
+    left:25px;
+    border-right:none;
+    border-bottom:none;
+}
+
+.blueprint-corners::after{
+    bottom:25px;
+    right:25px;
+    border-left:none;
+    border-top:none;
+}
+
+.ServiceImage{
+    width:100%;
+    border-radius:15px;
+    object-fit:cover;
+    height:520px;
+    display:block;
+    margin-bottom:20px;
+    transition:.5s;
+}
+
+.ServiceImage:hover{
+    transform:scale(1.02);
+}
+
+.service-detail-body p{
+    font-size:1.08rem;
+    color:#4a4a4a;
+    margin-bottom:28px;
+    text-align:justify;
+}
+
+/* ===========================
+   RELATED SERVICES
+=========================== */
+
+.related-services{
+    padding:90px 0;
+}
+
+.related-services-inner{
+    max-width:1200px;
+    margin:auto;
+}
+
+.related-services h2{
+    text-align:center;
+    color:#1c2b4a;
+    font-size:2.2rem;
+    font-weight:700;
+    margin-bottom:50px;
+    position:relative;
+}
+
+.related-services h2::after{
+    content:"";
+    width:70px;
+    height:4px;
+    background:#c8a35f;
+    display:block;
+    margin:15px auto;
+}
+
+.related-services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.related-service-card{
+    text-decoration:none;
+    background:white;
+    overflow:hidden;
+    border-radius:18px;
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.related-service-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+    text-decoration:none;
+}
+
+.related-service-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.related-service-card:hover img{
+    transform:scale(1.08);
+}
+
+.related-service-card h5{
+    padding:22px;
+    margin:0;
+   
+    text-align:center;
+    font-weight:600;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    margin-top:80px;
+    background:#d8dcde;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+
+footer span{
+    color:#c8a35f;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:991px){
+
+    .const{
+        font-size:2.3rem;
+        margin-top:100px;
+    }
+
+    .service-detail-body{
+        padding:35px;
+        margin:20px;
+    }
+
+    .ServiceImage{
+        height:350px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .const{
+        font-size:2rem;
+    }
+
+    .service-detail-body{
+        padding:25px;
+    }
+
+    .ServiceImage{
+        height:260px;
+    }
+
+    .service-detail-body p{
+        text-align:left;
+    }
+
+}
+
+html[lang="ar"] .right
+{
+  text-align: right;
+}
+
+/* ===========================
+   SERVICE FEATURES / EXPERTISE LIST
+=========================== */
+
+.service-features{
+    margin-top:20px;
+}
+
+.service-features h3{
+    font-size:1.6rem;
+    font-weight:700;
+    color:#1c2b4a;
+    margin-bottom:22px;
+}
+
+html[lang="ar"] .service-features h3{
+    text-align: right;
+    width: 100%;
+}
+
+html[lang="ar"] .expertise-list{
+    direction: rtl;
+}
+
+html[lang="ar"] .expertise-list li{
+    flex-direction: row-reverse;   /* icon moves to the left */
+}
+
+.expertise-list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+html[lang="ar"] .expertise-list li span{
+    text-align: right;
+}
+
+html[lang="ar"] .expertise-list li{
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.expertise-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    border-top:1px solid #e5e8ef;
+}
+
+.expertise-list li{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+    padding:22px 6px;
+    border-bottom:1px solid #e5e8ef;
+    font-size:1.15rem;
+    font-weight:600;
+    color:#1c2b4a;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.expertise-list li:hover{
+    color:#c8a35f;
+    padding-left:16px;
+    background:#faf7f0;
+}
+
+.expertise-list li i{
+    color:#c8a35f;
+    font-size:.95rem;
+    flex-shrink:0;
+    transition:transform .3s;
+}
+
+.expertise-list li:hover i{
+    transform:translateX(6px);
+}
+
+html[lang="ar"] .expertise-list li{
+    flex-direction:row-reverse;
+    text-align:right;
+}
+
+html[lang="ar"] .expertise-list li:hover{
+    padding-left:6px;
+    padding-right:16px;
+}
+
+html[lang="ar"] .expertise-list li i{
+    transform:scaleX(-1);
+}
+
+html[lang="ar"] .expertise-list li:hover i{
+    transform:scaleX(-1) translateX(6px);
+}
+
+@media(max-width:768px){
+    .expertise-list li{
+        font-size:1rem;
+        padding:18px 4px;
+    }
+}
+
+@media(max-width:768px){
+    .service-detail-body{
+        padding:25px;   /* ← this gets overridden */
+    }
+}
+
+/* later, unscoped — wins on ALL screen sizes including mobile */
+.service-detail-body{
+    margin:50px auto;
+    padding:40px;
+    
+}
+
+.navbar-nav .nav-link {
+
+  color: rgba(255, 255, 255, 0.72) !important;
+}
+
+.service-title{
+    text-align:left;
+    font-size:3rem;
+    font-weight:700;
+    color:#da8b16;
+    margin-bottom:10px;
+    background:none;
+}
+
+html[lang="ar"] .service-title
+{
+    text-align:right;
+}
+
+html[lang="ar"] .item
+{
+    text-align: center;
+}
+.gold-line{
+    width:90px;
+    height:4px;
+    background:#c8a35f;
+    margin:0 0 30px;
+}
+
+.service-page .navbar{
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(20,24,28,.92) 0%,
+            rgba(20,24,28,.55) 55%,
+            rgba(20,24,28,.30) 100%
+        ),
+        url("../navbar.jpg") center/cover no-repeat;
+
+    min-height:90px;
+    padding:15px 40px;
+    
+}
+
+@media (max-width: 991px) {
+
+    .service-page .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 90px;
+        padding: 10px 15px;
+    }
+
+    /* Logo on the LEFT */
+    .service-page .logo-box {
+        position: absolute;
+        left: 15px;
+        right: auto;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .service-page .logo-box img {
+        height: 70px;
+        width: auto;
+    }
+
+    /* Hamburger on the RIGHT */
+    .service-page .navbar-toggler {
+        position: absolute;
+        right: 15px;
+        left: auto;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+    }
+}
+
+.service-page .navbar.scrolled{
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(20,24,28,.92) 0%,
+            rgba(20,24,28,.55) 55%,
+            rgba(20,24,28,.30) 100%
+        ),
+        url("../navbar.jpg") center/cover no-repeat !important;
+
+    box-shadow: 0 6px 24px rgba(0,0,0,.25);
+}
+
+.service-features ul{
+    list-style: disc;
+    padding-left: 25px;
+    margin-top: 20px;
+}
+
+.service-features li{
+    display: list-item;
+    border: none;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.service-features li:hover{
+    background: transparent;
+    padding-left: 0;
+    color: #333;
+    transform: none;
+}
+
+html[lang="ar"] .service-features ul{
+    direction: rtl;
+    text-align: right;
+    padding-right: 25px;
+    padding-left: 0;
+}
+@media (max-width:991px){
+
+    .service-header{
+        flex-direction:column;
+    }
+
+    .const{
+        text-align:center;
+    }
+
+    .gold-line{
+        margin:18px auto;
+    }
+
+}
+
+
+
+.ServiceImage {
+     width: 90%;
+    max-width: 1100px;
+    margin: 0 auto 70px auto;
+    
+}
+
+
+
+
+.ServiceImage img {
+    width: 100%;
+    height: auto; /* or whatever height you want */
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+.carousel-inner {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+
+.ServiceImage {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto 70px auto;
+    overflow: hidden;   /* NEW */
+}
+
+.ServiceImage img {
+    width: 100%;
+    height: 100%;       /* was: auto */
+    object-fit: cover;  /* was: contain */
+    border-radius: 12px;
+}
+
+
+.carousel-inner {
+    overflow: hidden;
+    border-radius: 12px;
+    height: 100%;   /* NEW */
+}
+
+.carousel-item {
+    height: 100%;   /* NEW */
+}
