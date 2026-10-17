@@ -97,15 +97,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
   });
 
-  /* ---------- Shared navbar partial ---------- */
-  // var navbarMount = document.getElementById('navbar');
-  // if (navbarMount) {
-  //   fetch('navbar.html')
-  //     .then(function (response) { return response.text(); })
-  //     .then(function (data) { navbarMount.innerHTML = data; })
-  //     .catch(function (err) { console.warn('navbar.html could not be loaded:', err); });
-  // }
-
   /* ---------- i18n / RTL ---------- */
   var currentLang = localStorage.getItem('language') || 'en';
   await loadLanguage(currentLang);
@@ -121,7 +112,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   async function loadLanguage(lang) {
     try {
-      const response = await fetch(`./assets/lang/${lang}.json`);
+      const response = await fetch(`./Assets/Lang/${lang}.json`);
       const translations = await response.json();
 
       document.querySelectorAll('[data-i18n]').forEach(function (element) {
